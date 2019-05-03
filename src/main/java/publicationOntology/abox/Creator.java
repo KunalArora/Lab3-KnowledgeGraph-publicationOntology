@@ -4,7 +4,9 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.sparql.vocabulary.FOAF;
+import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
+import org.apache.jena.vocabulary.XSD;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -85,10 +87,37 @@ public class Creator {
             // the URI of paper is taken from its DBLP key
             String paperUri = Config.BASE_URL+row_data[3].replace("/","_");
 
-            System.out.println(paperUri);
             Resource currentPaper = model.createResource(paperUri)
                     // TODO: Change RDFS.label to our own title property
                     .addProperty(RDFS.label, title);
+        }
+        csvReader.close();
+
+        model.write(System.out);
+
+    }
+
+    public static void createJournalVolume() throws IOException {
+        // author,cite,ee,journal,key,mdate,pages,title,volume,year,type,booktitle,crossref,corresponding_author,keyword,reviewer
+        Model model = ModelFactory.createDefaultModel();
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.JOURNAL_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(",");
+
+            String title = row_data[0] + " Volume " + row_data[1];
+            // Convert 1992.0 -> 1992
+            String year = String.valueOf(Double.valueOf(row_data[2]).intValue());
+
+            // the URI of paper is taken from its DBLP key
+            String journalVolumeUri = Config.BASE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
+
+            Resource currentJournalVolume = model.createResource(journalVolumeUri)
+                    // TODO: Change RDFS.label to our own title property
+                    .addProperty(RDFS.label, title)
+                    .addProperty(model.createProperty(Config.BASE_URL+"year"), year);
         }
         csvReader.close();
 

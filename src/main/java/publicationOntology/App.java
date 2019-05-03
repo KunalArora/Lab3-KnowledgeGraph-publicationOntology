@@ -11,6 +11,8 @@ public class App
             Creator.createUniversity();
         } else if (args[0].equals("-paper")){
             Creator.createPaper();
+        } else if (args[0].equals("-journalVolume")){
+            Creator.createJournalVolume();
         }
     }
 }
