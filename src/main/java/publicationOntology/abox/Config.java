@@ -6,4 +6,6 @@ public class Config {
     public static final String PAPER_PATH = "src/main/resources/paper_sample.csv";
 
     public static final String BASE_URL = "http://www.somewhere.org/";
+    public static final String PROPERTY_URL = BASE_URL+"property/";
+    public static final String RESOURCE_URL = BASE_URL+"resource/";
 }

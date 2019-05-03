@@ -31,7 +31,7 @@ public class Creator {
             String universityHomepage = row_data[3];
 
             String universityUri = universityName.replace(" ","_");
-            Resource currentUniversity = model.createResource(Config.BASE_URL+universityUri)
+            Resource currentUniversity = model.createResource(Config.RESOURCE_URL+universityUri)
                     // TODO: Decide whether it's better to use RDFS.label or FOAF.name or our own property
                     .addProperty(RDFS.label, universityName)
                     .addProperty(FOAF.homepage,universityHomepage);
@@ -60,7 +60,7 @@ public class Creator {
                     personUri += "_"+name;
                 }
             }
-            personUri = Config.BASE_URL + personUri + lastName;
+            personUri = Config.RESOURCE_URL + personUri + lastName;
 
 
             Resource currentPerson = model.createResource(personUri)
@@ -85,11 +85,11 @@ public class Creator {
             String title = row_data[6];
 
             // the URI of paper is taken from its DBLP key
-            String paperUri = Config.BASE_URL+row_data[3].replace("/","_");
+            String paperUri = Config.RESOURCE_URL+row_data[3].replace("/","_");
 
             Resource currentPaper = model.createResource(paperUri)
                     // TODO: Change RDFS.label to our own title property
-                    .addProperty(RDFS.label, title);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"title"), title);
         }
         csvReader.close();
 
@@ -112,7 +112,7 @@ public class Creator {
             String year = String.valueOf(Double.valueOf(row_data[2]).intValue());
 
             // the URI of paper is taken from its DBLP key
-            String journalVolumeUri = Config.BASE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
+            String journalVolumeUri = Config.RESOURCE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
 
             Resource currentJournalVolume = model.createResource(journalVolumeUri)
                     // TODO: Change RDFS.label to our own title property

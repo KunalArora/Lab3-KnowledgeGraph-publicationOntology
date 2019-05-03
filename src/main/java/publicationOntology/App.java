@@ -13,6 +13,8 @@ public class App
             Creator.createPaper();
         } else if (args[0].equals("-journalVolume")){
             Creator.createJournalVolume();
+        } else if (args[0].equals("-university")){
+            Creator.createUniversity();
         }
     }
 }
