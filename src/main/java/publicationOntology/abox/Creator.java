@@ -98,7 +98,7 @@ public class Creator {
     }
 
     public static void createJournalVolume() throws IOException {
-        // author,cite,ee,journal,key,mdate,pages,title,volume,year,type,booktitle,crossref,corresponding_author,keyword,reviewer
+        // title, volume, year
         Model model = ModelFactory.createDefaultModel();
 
         // read the csv line by line
@@ -122,6 +122,45 @@ public class Creator {
         csvReader.close();
 
         model.write(System.out);
+    }
 
+    public static void createProceeding() throws IOException {
+        // booktitle,editor,ee,isbn,key,mdate,publisher,series,title,volume,year,location
+        Model model = ModelFactory.createDefaultModel();
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.PROCEEDING_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(";");
+            String booktitle = row_data[0];
+            String proceedingUrl = row_data[2];
+            String isbn = row_data[3];
+            String publisher = row_data[6];
+            String series = row_data[7];
+            String title = row_data[8];
+            // Convert 1992.0 -> 1992
+
+            String year = "N/A";
+            if(!(row_data[10].equals("N/A"))){
+                year = String.valueOf(Double.valueOf(row_data[10]).intValue());
+            }
+
+
+            // the URI of paper is taken from its DBLP key
+            String proceedingUri = Config.RESOURCE_URL+row_data[4].replace("/","_");
+
+            Resource currentJournalVolume = model.createResource(proceedingUri)
+                    .addProperty(model.createProperty(Config.BASE_URL+"title"), title)
+                    .addProperty(model.createProperty(Config.BASE_URL+"booktitle"), booktitle)
+                    .addProperty(model.createProperty(Config.BASE_URL+"isbn"), isbn)
+                    .addProperty(model.createProperty(Config.BASE_URL+"publisher"), publisher)
+                    .addProperty(model.createProperty(Config.BASE_URL+"url"), proceedingUrl)
+                    .addProperty(model.createProperty(Config.BASE_URL+"series"), series)
+                    .addProperty(model.createProperty(Config.BASE_URL+"year"), year);
+        }
+        csvReader.close();
+
+        model.write(System.out);
     }
 }
