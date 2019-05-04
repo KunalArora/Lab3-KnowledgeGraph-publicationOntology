@@ -38,7 +38,7 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out);
+        model.write(System.out, "NT");
     }
 
     public static void createPerson() throws IOException {
@@ -69,7 +69,7 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out);
+        model.write(System.out, "NT");
     }
 
     public static void createPaper() throws IOException {
@@ -93,7 +93,7 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out);
+        model.write(System.out, "NT");
 
     }
 
@@ -121,7 +121,7 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out);
+        model.write(System.out, "NT");
     }
 
     public static void createProceeding() throws IOException {
@@ -161,6 +161,6 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out);
+        model.write(System.out, "NT");
     }
 }
