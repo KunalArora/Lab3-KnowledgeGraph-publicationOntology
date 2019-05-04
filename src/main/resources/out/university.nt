@@ -1,0 +1,30 @@
+<http://www.somewhere.org/resource/Higher_Institute_of_Business_Administration> <http://xmlns.com/foaf/0.1/homepage> "http://www.hiba.edu.sy/" .
+<http://www.somewhere.org/resource/Higher_Institute_of_Business_Administration> <http://www.w3.org/2000/01/rdf-schema#label> "Higher Institute of Business Administration" .
+<http://www.somewhere.org/resource/Université_Hassan_Ier_-_Settat> <http://xmlns.com/foaf/0.1/homepage> "http://www.uh1.ac.ma/" .
+<http://www.somewhere.org/resource/Université_Hassan_Ier_-_Settat> <http://www.w3.org/2000/01/rdf-schema#label> "Université Hassan Ier - Settat" .
+<http://www.somewhere.org/resource/Blessing-Rieman_College_of_Nursing> <http://xmlns.com/foaf/0.1/homepage> "http://www.brcn.edu/" .
+<http://www.somewhere.org/resource/Blessing-Rieman_College_of_Nursing> <http://www.w3.org/2000/01/rdf-schema#label> "Blessing-Rieman College of Nursing" .
+<http://www.somewhere.org/resource/Kamrah_International_Institute_of_Technology_(KIIT)> <http://xmlns.com/foaf/0.1/homepage> "http://www.kiit.in/" .
+<http://www.somewhere.org/resource/Kamrah_International_Institute_of_Technology_(KIIT)> <http://www.w3.org/2000/01/rdf-schema#label> "Kamrah International Institute of Technology (KIIT)" .
+<http://www.somewhere.org/resource/Long_Island_University,_Southampton_College> <http://xmlns.com/foaf/0.1/homepage> "http://www.southampton.liunet.edu/" .
+<http://www.somewhere.org/resource/Long_Island_University,_Southampton_College> <http://www.w3.org/2000/01/rdf-schema#label> "Long Island University, Southampton College" .
+<http://www.somewhere.org/resource/Fachhochschule_St._Gallen> <http://xmlns.com/foaf/0.1/homepage> "https://www.fhsg.ch/" .
+<http://www.somewhere.org/resource/Fachhochschule_St._Gallen> <http://www.w3.org/2000/01/rdf-schema#label> "Fachhochschule St. Gallen" .
+<http://www.somewhere.org/resource/affiliation> <http://xmlns.com/foaf/0.1/homepage> "university_homepage" .
+<http://www.somewhere.org/resource/affiliation> <http://www.w3.org/2000/01/rdf-schema#label> "affiliation" .
+<http://www.somewhere.org/resource/Jinnah_University_for_Women> <http://xmlns.com/foaf/0.1/homepage> "http://www.juw.edu.pk/" .
+<http://www.somewhere.org/resource/Jinnah_University_for_Women> <http://www.w3.org/2000/01/rdf-schema#label> "Jinnah University for Women" .
+<http://www.somewhere.org/resource/Symbiosis_International_University> <http://xmlns.com/foaf/0.1/homepage> "http://www.siu.edu.in/" .
+<http://www.somewhere.org/resource/Symbiosis_International_University> <http://www.w3.org/2000/01/rdf-schema#label> "Symbiosis International University" .
+<http://www.somewhere.org/resource/University_of_Pittsburgh_at_Bradford> <http://xmlns.com/foaf/0.1/homepage> "http://www.upb.pitt.edu/" .
+<http://www.somewhere.org/resource/University_of_Pittsburgh_at_Bradford> <http://www.w3.org/2000/01/rdf-schema#label> "University of Pittsburgh at Bradford" .
+<http://www.somewhere.org/resource/University_of_the_West_Indies_St._Augustine> <http://xmlns.com/foaf/0.1/homepage> "http://www.uwi.tt/" .
+<http://www.somewhere.org/resource/University_of_the_West_Indies_St._Augustine> <http://www.w3.org/2000/01/rdf-schema#label> "University of the West Indies St. Augustine" .
+<http://www.somewhere.org/resource/Prince_Mohammad_Bin_Fahd_University> <http://xmlns.com/foaf/0.1/homepage> "http://www.pmu.edu.sa/" .
+<http://www.somewhere.org/resource/Prince_Mohammad_Bin_Fahd_University> <http://www.w3.org/2000/01/rdf-schema#label> "Prince Mohammad Bin Fahd University" .
+<http://www.somewhere.org/resource/University_of_Ghana> <http://xmlns.com/foaf/0.1/homepage> "http://www.ug.edu.gh/" .
+<http://www.somewhere.org/resource/University_of_Ghana> <http://www.w3.org/2000/01/rdf-schema#label> "University of Ghana" .
+<http://www.somewhere.org/resource/Université_d'Aix-Marseille_III> <http://xmlns.com/foaf/0.1/homepage> "http://www.u-3mrs.fr/" .
+<http://www.somewhere.org/resource/Université_d'Aix-Marseille_III> <http://www.w3.org/2000/01/rdf-schema#label> "Université d'Aix-Marseille III" .
+<http://www.somewhere.org/resource/Chonbuk_Sanup_University_of_Technology_(Howon_University)> <http://xmlns.com/foaf/0.1/homepage> "http://www.howon.ac.kr/" .
+<http://www.somewhere.org/resource/Chonbuk_Sanup_University_of_Technology_(Howon_University)> <http://www.w3.org/2000/01/rdf-schema#label> "Chonbuk Sanup University of Technology (Howon University)" .

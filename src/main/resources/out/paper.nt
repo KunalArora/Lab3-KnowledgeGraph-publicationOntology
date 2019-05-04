@@ -1,0 +1,49 @@
+<http://www.somewhere.org/resource/journals_tkde_ChangSWZ98> <http://www.somewhere.org/property/title> "Data Resource Selection in Distributed Visual Information Systems." .
+<http://www.somewhere.org/resource/journals_tkde_ShenL96> <http://www.somewhere.org/property/title> "A Metapattern-Based Automated Discovery Loop for Integrated Data Mining - Unsupervised Learning of Relational Patterns." .
+<http://www.somewhere.org/resource/journals_tkde_SrinivasP96> <http://www.somewhere.org/property/title> "Genetic Search: Analysis Using Fitness Moments." .
+<http://www.somewhere.org/resource/journals_tkde_HadzikadicB97> <http://www.somewhere.org/property/title> "Learning to Predict: INC2.5." .
+<http://www.somewhere.org/resource/journals_tkde_DiPippoW97> <http://www.somewhere.org/property/title> "Object-Based Semantic Real-Time Concurrency Control with Bounded Imprecision." .
+<http://www.somewhere.org/resource/journals_tkde_FanS93a> <http://www.somewhere.org/property/title> "\"Corrections to \"\"An Efficient Algorithm for Matching Multiple Patterns\"\".\"" .
+<http://www.somewhere.org/resource/journals_tkde_Chan93> <http://www.somewhere.org/property/title> "A Possible World Semantics for Disjunctive Databases." .
+<http://www.somewhere.org/resource/journals_tkde_ChenM89> <http://www.somewhere.org/property/title> "On the Data Model and Access Method of Summary Data Management." .
+<http://www.somewhere.org/resource/journals_tkde_ChenD98> <http://www.somewhere.org/property/title> "Common Subexpression Processing in Multiple-Query Processing." .
+<http://www.somewhere.org/resource/journals_tkde_ImielinskiVB97> <http://www.somewhere.org/property/title> "Data on Air: Organization and Access." .
+<http://www.somewhere.org/resource/journals_tkde_ZhangN94> <http://www.somewhere.org/property/title> "PREPARE: A Toll for Knowledge Base Verification." .
+<http://www.somewhere.org/resource/journals_tkde_Kumar94> <http://www.somewhere.org/property/title> "G-Tree: A New Data Structure for Organizing Multidimensional Data." .
+<http://www.somewhere.org/resource/journals_tkde_ZhengL96> <http://www.somewhere.org/property/title> "Speeding up External Mergesort." .
+<http://www.somewhere.org/resource/journals_tkde_TsaiLW98> <http://www.somewhere.org/property/title> "A Logic-Based Transformation System." .
+<http://www.somewhere.org/resource/journals_tkde_JensenMR91> <http://www.somewhere.org/property/title> "Incremental Implementation Model for Relational Databases with Transaction Time." .
+<http://www.somewhere.org/resource/journals_tkde_Ford97> <http://www.somewhere.org/property/title> "Dismountable Media Management in Tertiary Storage Systems." .
+<http://www.somewhere.org/resource/journals_tkde_BertinoBFS96> <http://www.somewhere.org/property/title> "A Temporal Access Control Mechanism for Database Systems." .
+<http://www.somewhere.org/resource/journals_tkde_GomezW89> <http://www.somewhere.org/property/title> "Automatic Programming for End Users: The TOAD System." .
+<http://www.somewhere.org/resource/journals_tkde_GroseljM95> <http://www.somewhere.org/property/title> "Combinatorial Optimization of Distributed Queries." .
+<http://www.somewhere.org/resource/journals_tkde_ElmagarmidJKBZ96> <http://www.somewhere.org/property/title> "Global Committability in Multidatabase Systems." .
+<http://www.somewhere.org/resource/journals_tkde_GruenwaldCH98> <http://www.somewhere.org/property/title> "Effects of Update Techniques on Main Memory Database System Performance." .
+<http://www.somewhere.org/resource/journals_tkde_ProperW95> <http://www.somewhere.org/property/title> "A General Theory for Evolving Application Models." .
+<http://www.somewhere.org/resource/journals_tkde_LoR98> <http://www.somewhere.org/property/title> "The Design and Implementation of Seeded Trees: An Efficient Method for Spatial Joins." .
+<http://www.somewhere.org/resource/journals_tkde_TorpMJ98> <http://www.somewhere.org/property/title> "Efficient Differential Timeslice Computation." .
+<http://www.somewhere.org/resource/journals_tkde_LehmanSC92> <http://www.somewhere.org/property/title> "An Evaluation of Starburst's Memory Resident Storage Component." .
+<http://www.somewhere.org/resource/journals_tkde_DimitrovaMEM98> <http://www.somewhere.org/property/title> "Video Content Management in Consumer Devices." .
+<http://www.somewhere.org/resource/journals_tkde_BettiniWJ98> <http://www.somewhere.org/property/title> "Temporal Semantic Assumptions and Their Use in Databases." .
+<http://www.somewhere.org/resource/journals_tkde_ChuHCT98> <http://www.somewhere.org/property/title> "Knowledge-Based Image Retrieval with Spatial and Temporal Constructs." .
+<http://www.somewhere.org/resource/journals_tkde_TsotrasGH95> <http://www.somewhere.org/property/title> "Efficient Management of Time-Evolving Databases." .
+<http://www.somewhere.org/resource/journals_tkde_HuangC90> <http://www.somewhere.org/property/title> "A New Methodology to Evaluate Locking Protocols." .
+<http://www.somewhere.org/resource/journals_tkde_HanHCF96> <http://www.somewhere.org/property/title> "Intelligent Query Answering by Knowledge Discovery Techniques." .
+<http://www.somewhere.org/resource/journals_tkde_BockKKRS92> <http://www.somewhere.org/property/title> "Gray-Scale ALIAS." .
+<http://www.somewhere.org/resource/journals_tkde_Bergadano93> <http://www.somewhere.org/property/title> "Inductive Database Relations." .
+<http://www.somewhere.org/resource/journals_tkde_HsuCT96> <http://www.somewhere.org/property/title> "A Knowledge-Based Approach for Retrieving Images by Content." .
+<http://www.somewhere.org/resource/journals_tkde_WongW93> <http://www.somewhere.org/property/title> "Design Guidelines for Object-Oriented Deductive Systems." .
+<http://www.somewhere.org/resource/journals_tkde_YuR93> <http://www.somewhere.org/property/title> "Ancestor Controlled Submodule Inclusion in Design Databases." .
+<http://www.somewhere.org/resource/journals_tkde_WuYP97> <http://www.somewhere.org/property/title> "Divergence Control Algorithms for Epsilon Serializability." .
+<http://www.somewhere.org/resource/journals_tkde_MalvestutoM90> <http://www.somewhere.org/property/title> "Query Evaluability in Statistical Databases." .
+<http://www.somewhere.org/resource/journals_tkde_BoberC97> <http://www.somewhere.org/property/title> "Indexing for Multiversion Locking: Alternatives and Performance Evaluation." .
+<http://www.somewhere.org/resource/journals_tkde_GongQ95> <http://www.somewhere.org/property/title> "Enriching the Expressive Power of Security Labels." .
+<http://www.somewhere.org/resource/journals_tkde_Ciaccia93> <http://www.somewhere.org/property/title> "Block Access Estimation for Clustered Data." .
+<http://www.somewhere.org/resource/journals_tkde_DuboisLP94> <http://www.somewhere.org/property/title> "\"Automated Reasoning Using Possibilistic Logic: Semantics" .
+<http://www.somewhere.org/resource/journals_tkde_LiD97> <http://www.somewhere.org/property/title> "Boolean Similarity Measures for Resource Discovery." .
+<http://www.somewhere.org/resource/journals_tkde_KeimK96> <http://www.somewhere.org/property/title> "Visualization Techniques for Mining Large Databases: A Comparison." .
+<http://www.somewhere.org/resource/journals_tkde_LorentzosM97> <http://www.somewhere.org/property/title> "SQL Extension for Interval Data." .
+<http://www.somewhere.org/resource/journals_tkde_AgrawalS93> <http://www.somewhere.org/property/title> "\"Modular Synchronization in Distributed" .
+<http://www.somewhere.org/resource/journals_tkde_LimSS96> <http://www.somewhere.org/property/title> "An Evidential Reasoning Approach to Attribute Value Conflict Resolution in Database Integration." .
+<http://www.somewhere.org/resource/journals_tkde_FanS93> <http://www.somewhere.org/property/title> "An Efficient Algorithm for Matching Multiple Patterns." .
+<http://www.somewhere.org/resource/journals_tkde_VetM98> <http://www.somewhere.org/property/title> "Bottom-Up Construction of Ontologies." .

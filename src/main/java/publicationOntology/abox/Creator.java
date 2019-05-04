@@ -8,9 +8,7 @@ import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Creator {
 
@@ -38,8 +36,9 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out, "NT");
-    }
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"university.nt")), true), "NT");    }
 
     public static void createPerson() throws IOException {
         Model model = ModelFactory.createDefaultModel();
@@ -68,8 +67,9 @@ public class Creator {
                     .addProperty(FOAF.lastName, lastName);
         }
         csvReader.close();
-
-        model.write(System.out, "NT");
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"person.nt")), true), "NT");
     }
 
     public static void createPaper() throws IOException {
@@ -93,8 +93,9 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out, "NT");
-
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"paper.nt")), true), "NT");
     }
 
     public static void createJournalVolume() throws IOException {
@@ -121,8 +122,9 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out, "NT");
-    }
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"journalVolume.nt")), true), "NT");    }
 
     public static void createProceeding() throws IOException {
         // booktitle,editor,ee,isbn,key,mdate,publisher,series,title,volume,year,location
@@ -161,6 +163,7 @@ public class Creator {
         }
         csvReader.close();
 
-        model.write(System.out, "NT");
-    }
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"proceedings.nt")), true), "NT");    }
 }
