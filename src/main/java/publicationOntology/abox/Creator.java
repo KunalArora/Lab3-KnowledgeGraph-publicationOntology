@@ -49,6 +49,8 @@ public class Creator {
         while ((row = csvReader.readLine()) != null) {
             String[] row_data = row.split(";");
             String[] names = row_data[0].split(" ");
+            String[] papers = row_data[1].split("\\|");
+
             String lastName = names[names.length-1];
 
             String firstName = names[0];
@@ -65,6 +67,10 @@ public class Creator {
             Resource currentPerson = model.createResource(personUri)
                     .addProperty(FOAF.firstName, firstName)
                     .addProperty(FOAF.lastName, lastName);
+
+            for(String paper:papers){
+                currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"writes"), Config.RESOURCE_URL+paper.replace("/","_"));
+            }
         }
         csvReader.close();
         model.write(new PrintStream(
