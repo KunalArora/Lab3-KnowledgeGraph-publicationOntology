@@ -338,5 +338,31 @@ public class Creator {
                 new BufferedOutputStream(
                         new FileOutputStream(Config.OUTPUT_PATH+"conference.nt")), true), "NT");    }
 
+    public static void createEdition() throws IOException {
+        Model model = ModelFactory.createDefaultModel();
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.PROCEEDING_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(";");
+
+            String editionNumber = row_data[9];
+            String year = row_data[10];
+            String venue = row_data[11];
+            String conferenceUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
+            String editionUri = Config.RESOURCE_URL+row_data[4];
+            Resource currentEdition = model.createResource(editionUri)
+                    .addProperty(model.createProperty(Config.RESOURCE_URL+"year"), year)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"edition_number"), editionNumber)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"venue"), venue)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_conference"), conferenceUri);
+
+        }
+        csvReader.close();
+
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"edition.nt")), true), "NT");    }
 
 }

@@ -27,6 +27,8 @@ public class App
             Creator.createJournal();
         } else if (args[0].equals("-conference")) {
             Creator.createConference();
+        } else if (args[0].equals("-edition")) {
+            Creator.createEdition();
         }
     }
 }
