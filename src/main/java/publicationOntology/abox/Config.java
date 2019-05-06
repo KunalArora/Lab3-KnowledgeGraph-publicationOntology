@@ -5,6 +5,7 @@ public class Config {
     public static final String AUTHOR_UNIVERSITY_PATH = "src/main/resources/authors_with_affiliation_sample.csv";
     public static final String PAPER_PATH = "src/main/resources/paper_sample.csv";
     public static final String PROCEEDING_PATH = "src/main/resources/proceedings.csv";
+    public static final String REVIEW_PATH = "src/main/resources/reviews.csv";
 
     public static final String OUTPUT_PATH = "src/main/resources/out/";
 

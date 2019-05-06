@@ -172,4 +172,34 @@ public class Creator {
         model.write(new PrintStream(
                 new BufferedOutputStream(
                         new FileOutputStream(Config.OUTPUT_PATH+"proceedings.nt")), true), "NT");    }
+
+    public static void createReview() throws IOException {
+        // booktitle,editor,ee,isbn,key,mdate,publisher,series,title,volume,year,location
+        Model model = ModelFactory.createDefaultModel();
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.REVIEW_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(",");
+
+            String paperKey = row_data[1].replace("/","_");
+            String paperUri = Config.RESOURCE_URL+paperKey;
+
+            String name = row_data[0].replace(" ","_");
+
+            String reviewUri = Config.RESOURCE_URL + name + "_" + paperKey;
+            String personUri = Config.RESOURCE_URL + name;
+
+            Resource currentReview = model.createResource(reviewUri)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"aboutPaper"),paperUri)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"hasReviewer"),personUri);
+
+        }
+        csvReader.close();
+
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"reviews.nt")), true), "NT");    }
+
 }

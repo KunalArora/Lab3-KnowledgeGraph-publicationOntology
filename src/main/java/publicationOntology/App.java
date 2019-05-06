@@ -17,6 +17,8 @@ public class App
             Creator.createUniversity();
         } else if (args[0].equals("-proceeding")){
             Creator.createProceeding();
+        } else if (args[0].equals("-review")){
+            Creator.createReview();
         }
     }
 }
