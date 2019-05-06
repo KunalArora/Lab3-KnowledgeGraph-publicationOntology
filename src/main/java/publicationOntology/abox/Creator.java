@@ -175,7 +175,7 @@ public class Creator {
                         new FileOutputStream(Config.OUTPUT_PATH+"paper.nt")), true), "NT");
     }
 
-    public static void createJournalVolume() throws IOException {
+    public static void createVolume() throws IOException {
         // title, volume, year
         Model model = ModelFactory.createDefaultModel();
 
@@ -185,23 +185,17 @@ public class Creator {
         while ((row = csvReader.readLine()) != null) {
             String[] row_data = row.split(",");
 
-            String title = row_data[0] + " Volume " + row_data[1];
-            // Convert 1992.0 -> 1992
-            String year = String.valueOf(Double.valueOf(row_data[2]).intValue());
-
-            // the URI of paper is taken from its DBLP key
             String journalVolumeUri = Config.RESOURCE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
 
             Resource currentJournalVolume = model.createResource(journalVolumeUri)
                     // TODO: Change RDFS.label to our own title property
-                    .addProperty(RDFS.label, title)
-                    .addProperty(model.createProperty(Config.BASE_URL+"year"), year);
+                    .addProperty(model.createProperty(Config.BASE_URL+"volume_no"), row_data[1]);
         }
         csvReader.close();
 
         model.write(new PrintStream(
                 new BufferedOutputStream(
-                        new FileOutputStream(Config.OUTPUT_PATH+"journalVolume.nt")), true), "NT");    }
+                        new FileOutputStream(Config.OUTPUT_PATH+"volume.nt")), true), "NT");    }
 
     public static void createProceeding() throws IOException {
         // booktitle,editor,ee,isbn,key,mdate,publisher,series,title,volume,year,location
