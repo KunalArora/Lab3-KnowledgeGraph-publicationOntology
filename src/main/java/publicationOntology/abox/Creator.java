@@ -1,5 +1,6 @@
 package publicationOntology.abox;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
@@ -8,7 +9,9 @@ import org.apache.jena.vocabulary.RDF;
 import org.apache.jena.vocabulary.RDFS;
 import org.apache.jena.vocabulary.XSD;
 
+import javax.rmi.CORBA.Util;
 import java.io.*;
+import java.util.Random;
 
 public class Creator {
 
@@ -105,6 +108,7 @@ public class Creator {
     }
 
     public static void createPaper() throws IOException {
+        Random randomGenerator = new Random();
         // author,cite,ee,journal,key,mdate,pages,title,volume,year,type,booktitle,crossref,corresponding_author,keyword,reviewer
         Model model = ModelFactory.createDefaultModel();
 
@@ -115,13 +119,54 @@ public class Creator {
             String[] row_data = row.split(",");
 
             String title = row_data[6];
-
+            String year = row_data[8];
             // the URI of paper is taken from its DBLP key
             String paperUri = Config.RESOURCE_URL+row_data[3].replace("/","_");
 
             Resource currentPaper = model.createResource(paperUri)
                     // TODO: Change RDFS.label to our own title property
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"title"), title);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"title"), title)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"abstract"),Utils.getLoremIpsum())
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"publication_year"),year)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"isbn"),RandomStringUtils.randomAlphanumeric(7)+"-"
+                            +RandomStringUtils.randomAlphanumeric(17)+"-"
+                            +RandomStringUtils.randomAlphanumeric(7));
+            Double randomDouble = Math.random();
+            if(randomDouble < 0.25) {
+                // shortPaper
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"page_size"), String.valueOf(Utils.getRandomNumberInRange(3,4)));
+            } else if(randomDouble > 0.25 && randomDouble < 0.5) {
+                // demoPaper
+                String randomVideoUrl= RandomStringUtils.randomAlphanumeric(10);
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"video_url"),"http://youtube.com/watch?v="+randomVideoUrl);
+            } else if (randomDouble > 0.5 && randomDouble < 0.75) {
+                // surveyPaper
+                String randomFormUrl = RandomStringUtils.randomAlphanumeric(5);
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"survey_url"),"https://www.surveymonkey.com/r/"+randomFormUrl);
+            } else {
+                // fullPaper
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"page_size"), String.valueOf(Utils.getRandomNumberInRange(10,12)));
+            }
+
+            // Add citation
+            for(String citedPaper: row_data[0].split("\\|")){
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"cite"), Config.RESOURCE_URL+citedPaper);
+            }
+
+            // Add keyword (taking any from the title that have length > 3)
+            for(String keyword:title.split(" ")){
+                if (keyword.length()>3){
+                    currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"has_keyword"),Config.RESOURCE_URL+"kw_"+keyword);
+                }
+            }
+
+            // Presented In, only for conference paper
+            if (row_data[3].contains("conf")){
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"presented_in"),Config.RESOURCE_URL+row_data[3]+"_event");
+            }
+
+            // Published In
+            currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"published_in"),Config.RESOURCE_URL+row_data[3]);
         }
         csvReader.close();
 
