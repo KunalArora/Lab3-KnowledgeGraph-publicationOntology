@@ -185,17 +185,41 @@ public class Creator {
         while ((row = csvReader.readLine()) != null) {
             String[] row_data = row.split(",");
 
-            String journalVolumeUri = Config.RESOURCE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
-
-            Resource currentJournalVolume = model.createResource(journalVolumeUri)
+            String volumeUri = Config.RESOURCE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
+            String journalUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
+            Resource currentVolume = model.createResource(volumeUri)
                     // TODO: Change RDFS.label to our own title property
-                    .addProperty(model.createProperty(Config.BASE_URL+"volume_no"), row_data[1]);
+                    .addProperty(model.createProperty(Config.BASE_URL+"volume_no"), row_data[1])
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_journal"),journalUri);
         }
         csvReader.close();
 
         model.write(new PrintStream(
                 new BufferedOutputStream(
                         new FileOutputStream(Config.OUTPUT_PATH+"volume.nt")), true), "NT");    }
+    public static void createJournal() throws IOException {
+        // title, volume, year
+        Model model = ModelFactory.createDefaultModel();
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.JOURNAL_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(",");
+
+            String journalUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
+
+            Resource currentJournalVolume = model.createResource(journalUri)
+                    // TODO: Change RDFS.label to our own title property
+                    .addProperty(model.createProperty(Config.BASE_URL+"publisher"), row_data[3])
+                    .addProperty(FOAF.name, row_data[0]);
+        }
+        csvReader.close();
+
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"journal.nt")), true), "NT");    }
+
 
     public static void createProceeding() throws IOException {
         // booktitle,editor,ee,isbn,key,mdate,publisher,series,title,volume,year,location

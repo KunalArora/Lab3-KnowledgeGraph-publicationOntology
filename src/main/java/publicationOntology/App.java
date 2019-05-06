@@ -23,6 +23,8 @@ public class App
             Creator.createCompany();
         } else if (args[0].equals("-keyword")){
             Creator.createKeyword();
+        } else if (args[0].equals("-journal")){
+            Creator.createJournal();
         }
     }
 }
