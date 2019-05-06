@@ -25,6 +25,8 @@ public class App
             Creator.createKeyword();
         } else if (args[0].equals("-journal")){
             Creator.createJournal();
+        } else if (args[0].equals("-conference")) {
+            Creator.createConference();
         }
     }
 }
