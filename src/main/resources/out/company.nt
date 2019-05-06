@@ -1,0 +1,202 @@
+<http://www.semanticweb.org/resource/Panasonic> <http://xmlns.com/foaf/0.1/name> "Panasonic" .
+<http://www.semanticweb.org/resource/Panasonic> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Lockheed_Martin> <http://xmlns.com/foaf/0.1/name> "Lockheed Martin" .
+<http://www.semanticweb.org/resource/Lockheed_Martin> <http://www.semanticweb.org/property/industry> "Aerospace & Defense" .
+<http://www.semanticweb.org/resource/China_Shipbuilding_Industry_Corporation> <http://xmlns.com/foaf/0.1/name> "China Shipbuilding Industry Corporation" .
+<http://www.semanticweb.org/resource/China_Shipbuilding_Industry_Corporation> <http://www.semanticweb.org/property/industry> "Shipbuilding" .
+<http://www.semanticweb.org/resource/PepsiCo> <http://xmlns.com/foaf/0.1/name> "PepsiCo" .
+<http://www.semanticweb.org/resource/PepsiCo> <http://www.semanticweb.org/property/industry> "Food & Beverages" .
+<http://www.semanticweb.org/resource/Hoffmann-La_Roche> <http://xmlns.com/foaf/0.1/name> "Hoffmann-La Roche" .
+<http://www.semanticweb.org/resource/Hoffmann-La_Roche> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Ford> <http://xmlns.com/foaf/0.1/name> "Ford" .
+<http://www.semanticweb.org/resource/Ford> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/GlaxoSmithKline> <http://xmlns.com/foaf/0.1/name> "GlaxoSmithKline" .
+<http://www.semanticweb.org/resource/GlaxoSmithKline> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Pfizer> <http://xmlns.com/foaf/0.1/name> "Pfizer" .
+<http://www.semanticweb.org/resource/Pfizer> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Hyundai_Motor_Company> <http://xmlns.com/foaf/0.1/name> "Hyundai Motor Company" .
+<http://www.semanticweb.org/resource/Hyundai_Motor_Company> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Shandong_Weiqiao_Pioneering_Group> <http://xmlns.com/foaf/0.1/name> "Shandong Weiqiao Pioneering Group" .
+<http://www.semanticweb.org/resource/Shandong_Weiqiao_Pioneering_Group> <http://www.semanticweb.org/property/industry> "Textiles" .
+<http://www.semanticweb.org/resource/ChemChina> <http://xmlns.com/foaf/0.1/name> "ChemChina" .
+<http://www.semanticweb.org/resource/ChemChina> <http://www.semanticweb.org/property/industry> "Chemicals" .
+<http://www.semanticweb.org/resource/China_Railway_and_Engineering_Group> <http://xmlns.com/foaf/0.1/name> "China Railway and Engineering Group" .
+<http://www.semanticweb.org/resource/China_Railway_and_Engineering_Group> <http://www.semanticweb.org/property/industry> "Engineering" .
+<http://www.semanticweb.org/resource/JBS_S.A.> <http://xmlns.com/foaf/0.1/name> "JBS S.A." .
+<http://www.semanticweb.org/resource/JBS_S.A.> <http://www.semanticweb.org/property/industry> "Food & Beverages" .
+<http://www.semanticweb.org/resource/Pegatron> <http://xmlns.com/foaf/0.1/name> "Pegatron" .
+<http://www.semanticweb.org/resource/Pegatron> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/FAW_Group> <http://xmlns.com/foaf/0.1/name> "FAW Group" .
+<http://www.semanticweb.org/resource/FAW_Group> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Honda> <http://xmlns.com/foaf/0.1/name> "Honda" .
+<http://www.semanticweb.org/resource/Honda> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Jardine_Matheson> <http://xmlns.com/foaf/0.1/name> "Jardine Matheson" .
+<http://www.semanticweb.org/resource/Jardine_Matheson> <http://www.semanticweb.org/property/industry> "Motor Vehicles & Parts" .
+<http://www.semanticweb.org/resource/General_Electric> <http://xmlns.com/foaf/0.1/name> "General Electric" .
+<http://www.semanticweb.org/resource/General_Electric> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/ThyssenKrupp> <http://xmlns.com/foaf/0.1/name> "ThyssenKrupp" .
+<http://www.semanticweb.org/resource/ThyssenKrupp> <http://www.semanticweb.org/property/industry> "Steel" .
+<http://www.semanticweb.org/resource/Nippon_Steel> <http://xmlns.com/foaf/0.1/name> "Nippon Steel" .
+<http://www.semanticweb.org/resource/Nippon_Steel> <http://www.semanticweb.org/property/industry> "Steel" .
+<http://www.semanticweb.org/resource/Kia_Motors> <http://xmlns.com/foaf/0.1/name> "Kia Motors" .
+<http://www.semanticweb.org/resource/Kia_Motors> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Bosch> <http://xmlns.com/foaf/0.1/name> "Bosch" .
+<http://www.semanticweb.org/resource/Bosch> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Sanofi> <http://xmlns.com/foaf/0.1/name> "Sanofi" .
+<http://www.semanticweb.org/resource/Sanofi> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Fujitsu> <http://xmlns.com/foaf/0.1/name> "Fujitsu" .
+<http://www.semanticweb.org/resource/Fujitsu> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Samsung_Electronics> <http://xmlns.com/foaf/0.1/name> "Samsung Electronics" .
+<http://www.semanticweb.org/resource/Samsung_Electronics> <http://www.semanticweb.org/property/industry> "Electronics, various" .
+<http://www.semanticweb.org/resource/Honeywell> <http://xmlns.com/foaf/0.1/name> "Honeywell" .
+<http://www.semanticweb.org/resource/Honeywell> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Bunge_Limited> <http://xmlns.com/foaf/0.1/name> "Bunge Limited" .
+<http://www.semanticweb.org/resource/Bunge_Limited> <http://www.semanticweb.org/property/industry> "Food, Beverages & Tabacco" .
+<http://www.semanticweb.org/resource/Saint-Gobain> <http://xmlns.com/foaf/0.1/name> "Saint-Gobain" .
+<http://www.semanticweb.org/resource/Saint-Gobain> <http://www.semanticweb.org/property/industry> "Building materials" .
+<http://www.semanticweb.org/resource/Nestle> <http://xmlns.com/foaf/0.1/name> "Nestle" .
+<http://www.semanticweb.org/resource/Nestle> <http://www.semanticweb.org/property/industry> "Food & Beverages" .
+<http://www.semanticweb.org/resource/Mitsui> <http://xmlns.com/foaf/0.1/name> "Mitsui" .
+<http://www.semanticweb.org/resource/Mitsui> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Aluminum_Corporation_of_China> <http://xmlns.com/foaf/0.1/name> "Aluminum Corporation of China" .
+<http://www.semanticweb.org/resource/Aluminum_Corporation_of_China> <http://www.semanticweb.org/property/industry> "Aluminium" .
+<http://www.semanticweb.org/resource/Continental> <http://xmlns.com/foaf/0.1/name> "Continental" .
+<http://www.semanticweb.org/resource/Continental> <http://www.semanticweb.org/property/industry> "Tyres" .
+<http://www.semanticweb.org/resource/Mitsubishi_Heavy_Industries> <http://xmlns.com/foaf/0.1/name> "Mitsubishi Heavy Industries" .
+<http://www.semanticweb.org/resource/Mitsubishi_Heavy_Industries> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Wilmar_International> <http://xmlns.com/foaf/0.1/name> "Wilmar International" .
+<http://www.semanticweb.org/resource/Wilmar_International> <http://www.semanticweb.org/property/industry> "Food & Beverages" .
+<http://www.semanticweb.org/resource/IBM> <http://xmlns.com/foaf/0.1/name> "IBM" .
+<http://www.semanticweb.org/resource/IBM> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Tyson_Foods> <http://xmlns.com/foaf/0.1/name> "Tyson Foods" .
+<http://www.semanticweb.org/resource/Tyson_Foods> <http://www.semanticweb.org/property/industry> "Food & Beverages" .
+<http://www.semanticweb.org/resource/Hon_Hai_Precision_Industry> <http://xmlns.com/foaf/0.1/name> "Hon Hai Precision Industry" .
+<http://www.semanticweb.org/resource/Hon_Hai_Precision_Industry> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/AB_Volvo> <http://xmlns.com/foaf/0.1/name> "AB Volvo" .
+<http://www.semanticweb.org/resource/AB_Volvo> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/POSCO> <http://xmlns.com/foaf/0.1/name> "POSCO" .
+<http://www.semanticweb.org/resource/POSCO> <http://www.semanticweb.org/property/industry> "Steel" .
+<http://www.semanticweb.org/resource/Sinopharm> <http://xmlns.com/foaf/0.1/name> "Sinopharm" .
+<http://www.semanticweb.org/resource/Sinopharm> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/BASF> <http://xmlns.com/foaf/0.1/name> "BASF" .
+<http://www.semanticweb.org/resource/BASF> <http://www.semanticweb.org/property/industry> "Chemicals" .
+<http://www.semanticweb.org/resource/Airbus> <http://xmlns.com/foaf/0.1/name> "Airbus" .
+<http://www.semanticweb.org/resource/Airbus> <http://www.semanticweb.org/property/industry> "Aerospace & Defense" .
+<http://www.semanticweb.org/resource/Novartis> <http://xmlns.com/foaf/0.1/name> "Novartis" .
+<http://www.semanticweb.org/resource/Novartis> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Guangzhou_Automobile_Industry_Group> <http://xmlns.com/foaf/0.1/name> "Guangzhou Automobile Industry Group" .
+<http://www.semanticweb.org/resource/Guangzhou_Automobile_Industry_Group> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Norinco> <http://xmlns.com/foaf/0.1/name> "Norinco" .
+<http://www.semanticweb.org/resource/Norinco> <http://www.semanticweb.org/property/industry> "Aerospace & Defense" .
+<http://www.semanticweb.org/resource/Cisco_Systems> <http://xmlns.com/foaf/0.1/name> "Cisco Systems" .
+<http://www.semanticweb.org/resource/Cisco_Systems> <http://www.semanticweb.org/property/industry> "Telecommunications equipment" .
+<http://www.semanticweb.org/resource/Cardinal_Health> <http://xmlns.com/foaf/0.1/name> "Cardinal Health" .
+<http://www.semanticweb.org/resource/Cardinal_Health> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/SAIC_Motor> <http://xmlns.com/foaf/0.1/name> "SAIC Motor" .
+<http://www.semanticweb.org/resource/SAIC_Motor> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Sinomach> <http://xmlns.com/foaf/0.1/name> "Sinomach" .
+<http://www.semanticweb.org/resource/Sinomach> <http://www.semanticweb.org/property/industry> "Industrial Machinery" .
+<http://www.semanticweb.org/resource/China_South_Industries_Group> <http://xmlns.com/foaf/0.1/name> "China South Industries Group" .
+<http://www.semanticweb.org/resource/China_South_Industries_Group> <http://www.semanticweb.org/property/industry> "Automotive, Electronics" .
+<http://www.semanticweb.org/resource/Peugeot> <http://xmlns.com/foaf/0.1/name> "Peugeot" .
+<http://www.semanticweb.org/resource/Peugeot> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Johnson_&_Johnson> <http://xmlns.com/foaf/0.1/name> "Johnson & Johnson" .
+<http://www.semanticweb.org/resource/Johnson_&_Johnson> <http://www.semanticweb.org/property/industry> "Personal care products" .
+<http://www.semanticweb.org/resource/United_Technologies> <http://xmlns.com/foaf/0.1/name> "United Technologies" .
+<http://www.semanticweb.org/resource/United_Technologies> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Apple> <http://xmlns.com/foaf/0.1/name> "Apple" .
+<http://www.semanticweb.org/resource/Apple> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Dongfeng_Motor_Group> <http://xmlns.com/foaf/0.1/name> "Dongfeng Motor Group" .
+<http://www.semanticweb.org/resource/Dongfeng_Motor_Group> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Lenovo> <http://xmlns.com/foaf/0.1/name> "Lenovo" .
+<http://www.semanticweb.org/resource/Lenovo> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Mitsubishi_Electric> <http://xmlns.com/foaf/0.1/name> "Mitsubishi Electric" .
+<http://www.semanticweb.org/resource/Mitsubishi_Electric> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Caterpillar> <http://xmlns.com/foaf/0.1/name> "Caterpillar" .
+<http://www.semanticweb.org/resource/Caterpillar> <http://www.semanticweb.org/property/industry> "Construction equipment" .
+<http://www.semanticweb.org/resource/Bayer> <http://xmlns.com/foaf/0.1/name> "Bayer" .
+<http://www.semanticweb.org/resource/Bayer> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Hewlett-Packard> <http://xmlns.com/foaf/0.1/name> "Hewlett-Packard" .
+<http://www.semanticweb.org/resource/Hewlett-Packard> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Hitachi> <http://xmlns.com/foaf/0.1/name> "Hitachi" .
+<http://www.semanticweb.org/resource/Hitachi> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Procter_&_Gamble> <http://xmlns.com/foaf/0.1/name> "Procter & Gamble" .
+<http://www.semanticweb.org/resource/Procter_&_Gamble> <http://www.semanticweb.org/property/industry> "Consumer goods" .
+<http://www.semanticweb.org/resource/Sinochem> <http://xmlns.com/foaf/0.1/name> "Sinochem" .
+<http://www.semanticweb.org/resource/Sinochem> <http://www.semanticweb.org/property/industry> "Chemicals" .
+<http://www.semanticweb.org/resource/Enel> <http://xmlns.com/foaf/0.1/name> "Enel" .
+<http://www.semanticweb.org/resource/Enel> <http://www.semanticweb.org/property/industry> "Renewable energy" .
+<http://www.semanticweb.org/resource/ZF_Friedrichshafen> <http://xmlns.com/foaf/0.1/name> "ZF Friedrichshafen" .
+<http://www.semanticweb.org/resource/ZF_Friedrichshafen> <http://www.semanticweb.org/property/industry> "Motor Vehicles & Parts" .
+<http://www.semanticweb.org/resource/Tata_Motors> <http://xmlns.com/foaf/0.1/name> "Tata Motors" .
+<http://www.semanticweb.org/resource/Tata_Motors> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Renault> <http://xmlns.com/foaf/0.1/name> "Renault" .
+<http://www.semanticweb.org/resource/Renault> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Geely> <http://xmlns.com/foaf/0.1/name> "Geely" .
+<http://www.semanticweb.org/resource/Geely> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Eni> <http://xmlns.com/foaf/0.1/name> "Eni" .
+<http://www.semanticweb.org/resource/Eni> <http://www.semanticweb.org/property/industry> "Oil & gas" .
+<http://www.semanticweb.org/resource/SABIC> <http://xmlns.com/foaf/0.1/name> "SABIC" .
+<http://www.semanticweb.org/resource/SABIC> <http://www.semanticweb.org/property/industry> "Chemicals" .
+<http://www.semanticweb.org/resource/Magna_International> <http://xmlns.com/foaf/0.1/name> "Magna International" .
+<http://www.semanticweb.org/resource/Magna_International> <http://www.semanticweb.org/property/industry> "Motor Vehicles & Parts" .
+<http://www.semanticweb.org/resource/Christian_Dior> <http://xmlns.com/foaf/0.1/name> "Christian Dior" .
+<http://www.semanticweb.org/resource/Christian_Dior> <http://www.semanticweb.org/property/industry> "Luxury goods" .
+<http://www.semanticweb.org/resource/Exor> <http://xmlns.com/foaf/0.1/name> "Exor" .
+<http://www.semanticweb.org/resource/Exor> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/China_National_Building_Material_Group> <http://xmlns.com/foaf/0.1/name> "China National Building Material Group" .
+<http://www.semanticweb.org/resource/China_National_Building_Material_Group> <http://www.semanticweb.org/property/industry> "Building Materials, Glass" .
+<http://www.semanticweb.org/resource/Intel> <http://xmlns.com/foaf/0.1/name> "Intel" .
+<http://www.semanticweb.org/resource/Intel> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Beijing_Automotive_Group> <http://xmlns.com/foaf/0.1/name> "Beijing Automotive Group" .
+<http://www.semanticweb.org/resource/Beijing_Automotive_Group> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Merck_&_Co.> <http://xmlns.com/foaf/0.1/name> "Merck & Co." .
+<http://www.semanticweb.org/resource/Merck_&_Co.> <http://www.semanticweb.org/property/industry> "Pharmaceuticals" .
+<http://www.semanticweb.org/resource/Mitsubishi> <http://xmlns.com/foaf/0.1/name> "Mitsubishi" .
+<http://www.semanticweb.org/resource/Mitsubishi> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/ArcelorMittal> <http://xmlns.com/foaf/0.1/name> "ArcelorMittal" .
+<http://www.semanticweb.org/resource/ArcelorMittal> <http://www.semanticweb.org/property/industry> "Steel" .
+<http://www.semanticweb.org/resource/DowDuPont> <http://xmlns.com/foaf/0.1/name> "DowDuPont" .
+<http://www.semanticweb.org/resource/DowDuPont> <http://www.semanticweb.org/property/industry> "Chemicals" .
+<http://www.semanticweb.org/resource/Nissan> <http://xmlns.com/foaf/0.1/name> "Nissan" .
+<http://www.semanticweb.org/resource/Nissan> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Toyota_Group> <http://xmlns.com/foaf/0.1/name> "Toyota Group" .
+<http://www.semanticweb.org/resource/Toyota_Group> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Aviation_Industry_Corporation_of_China> <http://xmlns.com/foaf/0.1/name> "Aviation Industry Corporation of China" .
+<http://www.semanticweb.org/resource/Aviation_Industry_Corporation_of_China> <http://www.semanticweb.org/property/industry> "Aerospace & Defense" .
+<http://www.semanticweb.org/resource/Boeing> <http://xmlns.com/foaf/0.1/name> "Boeing" .
+<http://www.semanticweb.org/resource/Boeing> <http://www.semanticweb.org/property/industry> "Aerospace & Defense" .
+<http://www.semanticweb.org/resource/Oracle_Corporation> <http://xmlns.com/foaf/0.1/name> "Oracle Corporation" .
+<http://www.semanticweb.org/resource/Oracle_Corporation> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Hengli_Group> <http://xmlns.com/foaf/0.1/name> "Hengli Group" .
+<http://www.semanticweb.org/resource/Hengli_Group> <http://www.semanticweb.org/property/industry> "Textiles" .
+<http://www.semanticweb.org/resource/Daimler> <http://xmlns.com/foaf/0.1/name> "Daimler" .
+<http://www.semanticweb.org/resource/Daimler> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Siemens> <http://xmlns.com/foaf/0.1/name> "Siemens" .
+<http://www.semanticweb.org/resource/Siemens> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/LG_Electronics> <http://xmlns.com/foaf/0.1/name> "LG Electronics" .
+<http://www.semanticweb.org/resource/LG_Electronics> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Anheuser-Busch_InBev> <http://xmlns.com/foaf/0.1/name> "Anheuser-Busch InBev" .
+<http://www.semanticweb.org/resource/Anheuser-Busch_InBev> <http://www.semanticweb.org/property/industry> "Food & Beverages" .
+<http://www.semanticweb.org/resource/BMW> <http://xmlns.com/foaf/0.1/name> "BMW" .
+<http://www.semanticweb.org/resource/BMW> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Volkswagen_Group> <http://xmlns.com/foaf/0.1/name> "Volkswagen Group" .
+<http://www.semanticweb.org/resource/Volkswagen_Group> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/HBIS_Group> <http://xmlns.com/foaf/0.1/name> "HBIS Group" .
+<http://www.semanticweb.org/resource/HBIS_Group> <http://www.semanticweb.org/property/industry> "Metals" .
+<http://www.semanticweb.org/resource/China_Baowu_Steel_Group> <http://xmlns.com/foaf/0.1/name> "China Baowu Steel Group" .
+<http://www.semanticweb.org/resource/China_Baowu_Steel_Group> <http://www.semanticweb.org/property/industry> "Steel" .
+<http://www.semanticweb.org/resource/Dell> <http://xmlns.com/foaf/0.1/name> "Dell" .
+<http://www.semanticweb.org/resource/Dell> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/China_Minmetals> <http://xmlns.com/foaf/0.1/name> "China Minmetals" .
+<http://www.semanticweb.org/resource/China_Minmetals> <http://www.semanticweb.org/property/industry> "Metals" .
+<http://www.semanticweb.org/resource/General_Motors> <http://xmlns.com/foaf/0.1/name> "General Motors" .
+<http://www.semanticweb.org/resource/General_Motors> <http://www.semanticweb.org/property/industry> "Automotive" .
+<http://www.semanticweb.org/resource/Denso> <http://xmlns.com/foaf/0.1/name> "Denso" .
+<http://www.semanticweb.org/resource/Denso> <http://www.semanticweb.org/property/industry> "Engineering, various" .
+<http://www.semanticweb.org/resource/Unilever> <http://xmlns.com/foaf/0.1/name> "Unilever" .
+<http://www.semanticweb.org/resource/Unilever> <http://www.semanticweb.org/property/industry> "Consumer goods" .
+<http://www.semanticweb.org/resource/Sony> <http://xmlns.com/foaf/0.1/name> "Sony" .
+<http://www.semanticweb.org/resource/Sony> <http://www.semanticweb.org/property/industry> "Electronics" .
+<http://www.semanticweb.org/resource/Huawei> <http://xmlns.com/foaf/0.1/name> "Huawei" .
+<http://www.semanticweb.org/resource/Huawei> <http://www.semanticweb.org/property/industry> "Telecommunications equipment, Electronics" .
