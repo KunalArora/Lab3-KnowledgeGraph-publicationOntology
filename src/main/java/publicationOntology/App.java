@@ -19,6 +19,8 @@ public class App
             Creator.createProceeding();
         } else if (args[0].equals("-review")){
             Creator.createReview();
+        } else if (args[0].equals("-company")){
+            Creator.createCompany();
         }
     }
 }

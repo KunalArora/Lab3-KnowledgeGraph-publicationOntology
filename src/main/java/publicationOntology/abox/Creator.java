@@ -13,6 +13,33 @@ import java.io.*;
 public class Creator {
 
 
+    public static void createCompany() throws IOException {
+
+        Model model = ModelFactory.createDefaultModel();
+
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.COMPANIES_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(";");
+
+
+            String companyName = row_data[0];
+            String industry = row_data[1];
+
+            String companyUri = companyName.replace(" ","_");
+            Resource currentCompany = model.createResource(Config.RESOURCE_URL+companyUri)
+                    // TODO: Decide whether it's better to use RDFS.label or FOAF.name or our own property
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"industry"),industry)
+                    .addProperty(FOAF.name, companyName);
+        }
+        csvReader.close();
+
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"company.nt")), true), "NT");    }
+
     public static void createUniversity() throws IOException {
 
         Model model = ModelFactory.createDefaultModel();
@@ -30,8 +57,7 @@ public class Creator {
 
             String universityUri = universityName.replace(" ","_");
             Resource currentUniversity = model.createResource(Config.RESOURCE_URL+universityUri)
-                    // TODO: Decide whether it's better to use RDFS.label or FOAF.name or our own property
-                    .addProperty(RDFS.label, universityName)
+                    .addProperty(FOAF.name, universityName)
                     .addProperty(FOAF.homepage,universityHomepage);
         }
         csvReader.close();
