@@ -21,6 +21,8 @@ public class App
             Creator.createReview();
         } else if (args[0].equals("-company")){
             Creator.createCompany();
+        } else if (args[0].equals("-keyword")){
+            Creator.createKeyword();
         }
     }
 }

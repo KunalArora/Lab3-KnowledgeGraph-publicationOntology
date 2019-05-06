@@ -273,4 +273,29 @@ public class Creator {
                 new BufferedOutputStream(
                         new FileOutputStream(Config.OUTPUT_PATH+"reviews.nt")), true), "NT");    }
 
+    public static void createKeyword() throws IOException {
+        Model model = ModelFactory.createDefaultModel();
+
+        // read the csv line by line
+        BufferedReader csvReader = new BufferedReader(new FileReader(Config.PAPER_PATH));
+        String row;
+        while ((row = csvReader.readLine()) != null) {
+            String[] row_data = row.split(",");
+
+            String title = row_data[6];
+            for(String keyword: title.split(" ")){
+                if (keyword.length() > 3){
+                    String keywordUri = Config.RESOURCE_URL+"kw_"+keyword;
+                    Resource currentTitle = model.createResource(keywordUri)
+                            .addProperty(model.createProperty(Config.PROPERTY_URL+"keyword"),keyword);
+                }
+            }
+
+        }
+        csvReader.close();
+
+        model.write(new PrintStream(
+                new BufferedOutputStream(
+                        new FileOutputStream(Config.OUTPUT_PATH+"keyword.nt")), true), "NT");    }
+
 }
