@@ -52,16 +52,20 @@ public class Creator {
         BufferedReader csvReader = new BufferedReader(new FileReader(Config.AUTHOR_UNIVERSITY_PATH));
         String row;
         while ((row = csvReader.readLine()) != null) {
+
             String[] row_data = row.split(";");
 
 
             String universityName = row_data[2];
             String universityHomepage = row_data[3];
 
-            String universityUri = universityName.replace(" ","_");
-            Resource currentUniversity = model.createResource(Config.RESOURCE_URL+universityUri)
-                    .addProperty(FOAF.name, universityName)
-                    .addProperty(FOAF.homepage,universityHomepage);
+            if (!(universityHomepage.equals("N/A"))){
+                String universityUri = universityName.replace(" ","_");
+                Resource currentUniversity = model.createResource(Config.RESOURCE_URL+universityUri)
+                        .addProperty(FOAF.name, universityName)
+                        .addProperty(FOAF.homepage,universityHomepage);
+            }
+
         }
         csvReader.close();
 
@@ -92,10 +96,12 @@ public class Creator {
             }
             personUri = Config.RESOURCE_URL + personUri + lastName;
 
+            String workplaceUri = Config.RESOURCE_URL+row_data[2].replace(" ","_");
 
             Resource currentPerson = model.createResource(personUri)
                     .addProperty(FOAF.firstName, firstName)
-                    .addProperty(FOAF.lastName, lastName);
+                    .addProperty(FOAF.lastName, lastName)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"works_in"),workplaceUri);
 
             for(String paper:papers){
                 currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"writes"), Config.RESOURCE_URL+paper.replace("/","_"));
