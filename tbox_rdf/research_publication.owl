@@ -7,10 +7,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -18,7 +18,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.semanticweb.org/about_paper -->
@@ -27,7 +27,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Review"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/cites -->
@@ -36,7 +36,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/has_conference -->
@@ -45,7 +45,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Edition"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Conference"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/has_journal -->
@@ -54,7 +54,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Volume"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Journal"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/has_keyword -->
@@ -63,7 +63,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Keyword"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/has_reviewer -->
@@ -72,7 +72,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Review"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Reviewer"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/linked_to -->
@@ -81,7 +81,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Proceedings"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Conference"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/presented_in -->
@@ -90,7 +90,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Edition"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/published_in -->
@@ -99,7 +99,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Publication"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/works_in -->
@@ -108,7 +108,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Author"/>
         <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/writes -->
@@ -117,10 +117,10 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Author"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:ObjectProperty>
-    
 
+e
 
-    <!-- 
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -128,7 +128,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.semanticweb.org/abstract -->
@@ -138,7 +138,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Proceedings"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/comment -->
@@ -147,7 +147,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Review"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/decision -->
@@ -156,7 +156,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Review"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/edition_no -->
@@ -165,7 +165,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Edition"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/form_url -->
@@ -174,7 +174,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/SurveyPaper"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/homepage -->
@@ -183,7 +183,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/University"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/industry -->
@@ -192,7 +192,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Company"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/isbn -->
@@ -201,7 +201,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/location -->
@@ -210,7 +210,7 @@
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/page_size -->
@@ -220,7 +220,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ShortPaper"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/publication_year -->
@@ -229,7 +229,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/publisher -->
@@ -239,7 +239,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Journal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/title -->
@@ -248,7 +248,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Paper"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/venue -->
@@ -257,7 +257,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Edition"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/video_url -->
@@ -266,7 +266,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/DemoPaper"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/volume_no -->
@@ -275,7 +275,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Volume"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://www.semanticweb.org/year -->
@@ -284,7 +284,7 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/Edition"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/firstName -->
@@ -293,7 +293,7 @@
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/lastName -->
@@ -302,7 +302,7 @@
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/name -->
@@ -314,10 +314,10 @@
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -325,7 +325,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://www.semanticweb.org/Author -->
@@ -333,7 +333,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/Author">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Company -->
@@ -341,13 +341,13 @@
     <owl:Class rdf:about="http://www.semanticweb.org/Company">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Conference -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/Conference"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/DemoPaper -->
@@ -355,13 +355,13 @@
     <owl:Class rdf:about="http://www.semanticweb.org/DemoPaper">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Edition -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/Edition"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/FullPaper -->
@@ -369,19 +369,19 @@
     <owl:Class rdf:about="http://www.semanticweb.org/FullPaper">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Journal -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/Journal"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/Keyword -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/Keyword"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/Paper -->
@@ -389,7 +389,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/Paper">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Proceedings -->
@@ -398,19 +398,19 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Publication"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/Volume"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Publication -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/Publication"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/Review -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/Review"/>
-    
+
 
 
     <!-- http://www.semanticweb.org/Reviewer -->
@@ -418,7 +418,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/Reviewer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Author"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/ShortPaper -->
@@ -426,7 +426,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ShortPaper">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/SurveyPaper -->
@@ -434,7 +434,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/SurveyPaper">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Paper"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/University -->
@@ -442,7 +442,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/University">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     </owl:Class>
-    
+
 
 
     <!-- http://www.semanticweb.org/Volume -->
@@ -450,19 +450,19 @@
     <owl:Class rdf:about="http://www.semanticweb.org/Volume">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Publication"/>
     </owl:Class>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/Document -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document"/>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
     <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
-    
+
 
 
     <!-- http://xmlns.com/foaf/0.1/Person -->
@@ -473,4 +473,3 @@
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-
