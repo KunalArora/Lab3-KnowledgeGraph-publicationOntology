@@ -95,6 +95,8 @@ public class Creator {
                     personUri += "_"+name;
                 }
             }
+
+            String reviewedPaper = row_data[4];
             personUri = Config.RESOURCE_URL + personUri + lastName;
 
             String workplaceUri = Config.RESOURCE_URL+row_data[2].replace(" ","_");
@@ -107,6 +109,12 @@ public class Creator {
             for(String paper:papers){
                 currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"writes"), Config.RESOURCE_URL+paper.replace("/","_"));
             }
+            if(!(reviewedPaper.equals("N/A"))){
+                for(String paper:reviewedPaper.split("\\|")){
+                    currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"reviews"), Config.RESOURCE_URL+row_data[0].replace(" ","_")+"_"+paper.replace("/","_"));
+                }
+            }
+
         }
         csvReader.close();
         model.write(new PrintStream(
