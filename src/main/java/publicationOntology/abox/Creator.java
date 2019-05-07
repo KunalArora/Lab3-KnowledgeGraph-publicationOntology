@@ -218,7 +218,7 @@ public class Creator {
 
             Resource currentJournalVolume = model.createResource(journalUri)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"publisher"), row_data[3])
-                    .addProperty(FOAF.name, row_data[0]);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"jourName"), row_data[0]);
         }
         csvReader.close();
 
@@ -301,7 +301,7 @@ public class Creator {
             String publisher = row_data[6];
             String conferenceUri = Config.RESOURCE_URL+title.replace(" ","_");
             Resource currentConference = model.createResource(conferenceUri)
-                    .addProperty(FOAF.name, title)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL + "confName"), title)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"publisher"), publisher);
 
 

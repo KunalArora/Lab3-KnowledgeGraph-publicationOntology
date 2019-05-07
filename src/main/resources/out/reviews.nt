@@ -1,47 +1,47 @@
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Amikam_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
-<http://www.semanticweb.org/resource/A._Amikam_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Amikam_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Amikam_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Amikam_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icdcs_NoeA87" .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_TjoaB93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_TjoaB93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaB93" .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icdcs_NoeA87" .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaB93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bagchi" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaB93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaB93" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_dolap_MangisengiT98" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_mfdbs_MalyutaPS89" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
@@ -52,60 +52,60 @@
 <http://www.semanticweb.org/resource/A._Balaraman_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._Birnie_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Birnie_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Birnie_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Birnie_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_is_BolourD83> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_is_BolourD83> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_BolourD83" .
-<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Bendell_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cj_MarkuszK85" .
-<http://www.semanticweb.org/resource/A._Bendell_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bendell_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bendell_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Bendell_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaW79> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bagchi" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaW79> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaW79" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaW79> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_er_TjoaW79> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bagchi" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._Bagchi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bagchi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bagchi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bagchi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Baden_conf_er_NavatheB91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_conf_er_NavatheB91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_NavatheB91" .
-<http://www.semanticweb.org/resource/A._Baden_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Baden_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Baden_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Baden_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bagchi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bagchi" .
 <http://www.semanticweb.org/resource/A._Bagchi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_jacm_MahantiB85" .
-<http://www.semanticweb.org/resource/A._Bagchi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bagchi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bagchi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bagchi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_is_Amikam85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_is_Amikam85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_Amikam85" .
-<http://www.semanticweb.org/resource/A._Birnie_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Birnie_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Birnie_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Birnie_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Kaposi" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_tkde_StephensYH94" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._Amikam_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Amikam_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Amikam_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Amikam_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Kaposi" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._A._Kaposi_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._A._Kaposi_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._A._Kaposi_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._A._Kaposi_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_is_Amikam85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_is_Amikam85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_Amikam85" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_is_Amikam85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_is_Amikam85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_Amikam85" .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_er_NavatheB91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_er_NavatheB91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_NavatheB91" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_tkde_StephensYH94" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
@@ -116,104 +116,104 @@
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_mfdbs_MalyutaPS89" .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Baden_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._Baden_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Baden_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Baden_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Baden_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
-<http://www.semanticweb.org/resource/A._Birnie_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Birnie_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Birnie_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Birnie_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_pos_AtkinsonBJP92" .
-<http://www.semanticweb.org/resource/A._Birnie_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Birnie_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Birnie_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Birnie_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_pos_AtkinsonBJP92" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icdcs_NoeA87" .
-<http://www.semanticweb.org/resource/A._Bolour_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Bolour_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Bolour_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Bolour_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_er_PernulWT93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_er_PernulWT93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulWT93" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cj_MarkuszK85" .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulWT93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulWT93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulWT93" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Bolour_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bolour_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bolour_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bolour_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulT91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulT91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulT91" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
-<http://www.semanticweb.org/resource/A._Balaraman_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Balaraman_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Balaraman_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Balaraman_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Baden_conf_er_TjoaB93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_conf_er_TjoaB93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaB93" .
-<http://www.semanticweb.org/resource/A._Baden_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Baden_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Baden_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Baden_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
-<http://www.semanticweb.org/resource/A._Bolour_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bolour_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bolour_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Bolour_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_SamsonB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_SamsonB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cj_SamsonB85" .
-<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_SamsonB85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_SamsonB85> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_SamsonB85> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_SamsonB85> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bagchi" .
 <http://www.semanticweb.org/resource/A._Bagchi_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_dolap_MangisengiT98" .
-<http://www.semanticweb.org/resource/A._Bagchi_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bagchi_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bagchi_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bagchi_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_jacm_MahantiB85" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_pos_AtkinsonBJP92" .
-<http://www.semanticweb.org/resource/A._Amikam_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Amikam_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Amikam_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Amikam_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_er_TjoaW79> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_er_TjoaW79> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaW79" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_er_TjoaW79> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
@@ -224,44 +224,44 @@
 <http://www.semanticweb.org/resource/A._Amikam_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Kaposi" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_jacm_MahantiB85" .
-<http://www.semanticweb.org/resource/A._A._Kaposi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._A._Kaposi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._A._Kaposi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._A._Kaposi_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulT91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulT91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulT91" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_tkde_StephensYH94" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Kaposi" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_pos_AtkinsonBJP92" .
-<http://www.semanticweb.org/resource/A._A._Kaposi_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._A._Kaposi_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._A._Kaposi_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._A._Kaposi_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Birnie_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Birnie_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Birnie_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Birnie_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_er_PernulT91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_er_PernulT91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulT91" .
-<http://www.semanticweb.org/resource/A._Birnie_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Birnie_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Birnie_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Birnie_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icdcs_NoeA87" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_dolap_MangisengiT98" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_is_Amikam85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_is_Amikam85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_Amikam85" .
-<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._B._Stephens_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_is_BolourD83> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_is_BolourD83> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_BolourD83" .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_NavatheB91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_NavatheB91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_NavatheB91" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
@@ -276,185 +276,185 @@
 <http://www.semanticweb.org/resource/A._Amikam_conf_mfdbs_MalyutaPS89> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._Birnie_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Birnie_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Birnie_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Birnie_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_dolap_MangisengiT98" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Bensoussan_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bensoussan_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Baden_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
-<http://www.semanticweb.org/resource/A._Baden_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Baden_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Baden_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Baden_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_pos_AtkinsonBJP92" .
-<http://www.semanticweb.org/resource/A._Bolour_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bolour_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bolour_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bolour_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_cj_SamsonB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_cj_SamsonB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cj_SamsonB85" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_cj_SamsonB85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
 <http://www.semanticweb.org/resource/A._Birnie_journals_cj_SamsonB85> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bendell_journals_is_BolourD83> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_journals_is_BolourD83> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_BolourD83" .
-<http://www.semanticweb.org/resource/A._Bendell_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bendell_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bendell_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bendell_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_icse_PotierAFB82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_icse_PotierAFB82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icse_PotierAFB82" .
-<http://www.semanticweb.org/resource/A._Amikam_conf_icse_PotierAFB82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Amikam_conf_icse_PotierAFB82> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Amikam_conf_icse_PotierAFB82> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Amikam_conf_icse_PotierAFB82> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Baden_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._Baden_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Baden_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Baden_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Baden_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_TjoaB93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_TjoaB93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaB93" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "This paper is under review." .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icdcs_NoeA87" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_is_BolourD83> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_is_BolourD83> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_BolourD83" .
-<http://www.semanticweb.org/resource/A._Balaraman_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Balaraman_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Balaraman_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Balaraman_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Amikam_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Amikam_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Amikam_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Amikam_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_jacm_MahantiB85" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_NavatheB91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_NavatheB91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_NavatheB91" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._B._Stephens_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._B._Stephens_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_PernulWT93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_conf_er_PernulWT93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulWT93" .
-<http://www.semanticweb.org/resource/A._Amikam_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Amikam_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Amikam_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Amikam_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Amikam_journals_is_BolourD83> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Amikam" .
 <http://www.semanticweb.org/resource/A._Amikam_journals_is_BolourD83> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_BolourD83" .
-<http://www.semanticweb.org/resource/A._Amikam_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Amikam_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Amikam_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Amikam_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Baden_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_dolap_MangisengiT98" .
-<http://www.semanticweb.org/resource/A._Baden_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Baden_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Baden_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Baden_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bendell_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
-<http://www.semanticweb.org/resource/A._Bendell_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bendell_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bendell_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bendell_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Baden_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Baden_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Baden_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Baden_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Baden_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Baden_journals_is_BolourD83> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_journals_is_BolourD83> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_BolourD83" .
-<http://www.semanticweb.org/resource/A._Baden_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Baden_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Baden_journals_is_BolourD83> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Baden_journals_is_BolourD83> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_NavatheB91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_NavatheB91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_NavatheB91" .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Andreassian_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Andreassian_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_is_Amikam85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_is_Amikam85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_Amikam85" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
 <http://www.semanticweb.org/resource/A._Bolour_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_dolap_MangisengiT98" .
-<http://www.semanticweb.org/resource/A._Balaraman_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Balaraman_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Balaraman_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Balaraman_conf_dolap_MangisengiT98> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
 <http://www.semanticweb.org/resource/A._Bolour_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is under review." .
 <http://www.semanticweb.org/resource/A._Bolour_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_cj_SamsonB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_cj_SamsonB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cj_SamsonB85" .
-<http://www.semanticweb.org/resource/A._Balaraman_journals_cj_SamsonB85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Balaraman_journals_cj_SamsonB85> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Balaraman_journals_cj_SamsonB85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Balaraman_journals_cj_SamsonB85> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bagchi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bagchi" .
 <http://www.semanticweb.org/resource/A._Bagchi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
-<http://www.semanticweb.org/resource/A._Bagchi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bagchi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bagchi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Bagchi_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cacm_BensoussanCD72" .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
 <http://www.semanticweb.org/resource/A._B._Stephens_journals_cacm_BensoussanCD72> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulWT93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulWT93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulWT93" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulWT93> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_PernulWT93> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Kaposi" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
 <http://www.semanticweb.org/resource/A._A._Kaposi_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under review." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InProgress" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bensoussan" .
 <http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_cj_MarkuszK85" .
-<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Bensoussan_journals_cj_MarkuszK85> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_TjoaB93> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_TjoaB93> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_TjoaB93" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_TjoaB93> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_TjoaB93> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_PernulT91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_PernulT91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_PernulT91" .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_PernulT91> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
 <http://www.semanticweb.org/resource/A._Andreassian_conf_er_PernulT91> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_EderK86> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_EderK86> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_EderK86" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_EderK86> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_er_EderK86> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Birnie" .
 <http://www.semanticweb.org/resource/A._Birnie_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_jacm_MahantiB85" .
-<http://www.semanticweb.org/resource/A._Birnie_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Birnie_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Birnie_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Birnie_journals_jacm_MahantiB85> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icdcs_NoeA87" .
-<http://www.semanticweb.org/resource/A._Balaraman_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Balaraman_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Balaraman_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Balaraman_conf_icdcs_NoeA87> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_NavatheB91> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._B._Stephens" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_NavatheB91> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_er_NavatheB91" .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_NavatheB91> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
 <http://www.semanticweb.org/resource/A._B._Stephens_conf_er_NavatheB91> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_pos_AtkinsonBJP92" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_pos_AtkinsonBJP92> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bendell" .
 <http://www.semanticweb.org/resource/A._Bendell_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._Bendell_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._Bendell_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._Bendell_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
+<http://www.semanticweb.org/resource/A._Bendell_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InHalt" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._A._Stogniy" .
 <http://www.semanticweb.org/resource/A._A._Stogniy_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94" .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
-<http://www.semanticweb.org/resource/A._A._Stogniy_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Approved" .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._A._Stogniy_conf_ssdbm_GrossmanQVXDLMQMLMPBCLLNSS94> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Bolour" .
 <http://www.semanticweb.org/resource/A._Bolour_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/conf_icde_EsmayrKPPT96" .
-<http://www.semanticweb.org/resource/A._Bolour_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "This paper is under review." .
-<http://www.semanticweb.org/resource/A._Bolour_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "InProgress" .
+<http://www.semanticweb.org/resource/A._Bolour_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Bolour_conf_icde_EsmayrKPPT96> <http://www.semanticweb.org/property/decision> "Approved" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Balaraman" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_sigmod_BolourADW82" .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
 <http://www.semanticweb.org/resource/A._Balaraman_journals_sigmod_BolourADW82> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Andreassian" .
 <http://www.semanticweb.org/resource/A._Andreassian_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_tkde_StephensYH94" .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/comment> "This paper is under halt as we do not have enough reviewers at the moment." .
-<http://www.semanticweb.org/resource/A._Andreassian_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/decision> "InHalt" .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
+<http://www.semanticweb.org/resource/A._Andreassian_journals_tkde_StephensYH94> <http://www.semanticweb.org/property/decision> "Rejected" .
 <http://www.semanticweb.org/resource/A._Baden_journals_is_Amikam85> <http://www.semanticweb.org/property/has_reviewer> "http://www.semanticweb.org/resource/A._Baden" .
 <http://www.semanticweb.org/resource/A._Baden_journals_is_Amikam85> <http://www.semanticweb.org/property/about_paper> "http://www.semanticweb.org/resource/journals_is_Amikam85" .
-<http://www.semanticweb.org/resource/A._Baden_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "This paper is rejected as it violated some basic pulication rules." .
-<http://www.semanticweb.org/resource/A._Baden_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Rejected" .
+<http://www.semanticweb.org/resource/A._Baden_journals_is_Amikam85> <http://www.semanticweb.org/property/comment> "The corresponding paper is approved so, it can be pushed further in the publication process." .
+<http://www.semanticweb.org/resource/A._Baden_journals_is_Amikam85> <http://www.semanticweb.org/property/decision> "Approved" .
