@@ -15,8 +15,6 @@ public class App
             Creator.createVolume();
         } else if (args[0].equals("-university")){
             Creator.createUniversity();
-        } else if (args[0].equals("-proceeding")){
-            Creator.createProceeding();
         } else if (args[0].equals("-review")){
             Creator.createReview();
         } else if (args[0].equals("-company")){
@@ -29,6 +27,20 @@ public class App
             Creator.createConference();
         } else if (args[0].equals("-edition")) {
             Creator.createEdition();
+        } else if (args[0].equals("-proceeding")){
+            Creator.createProceedings();
+        } else if (args[0].equals("-all")){
+            Creator.createCompany();
+            Creator.createConference();
+            Creator.createEdition();
+            Creator.createJournal();
+            Creator.createVolume();
+            Creator.createKeyword();
+            Creator.createPaper();
+            Creator.createPerson();
+            Creator.createProceedings();
+            Creator.createReview();
+            Creator.createUniversity();
         }
     }
 }
