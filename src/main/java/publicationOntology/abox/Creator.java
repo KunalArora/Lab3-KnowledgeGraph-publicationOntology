@@ -12,6 +12,7 @@ import org.apache.jena.vocabulary.XSD;
 import javax.rmi.CORBA.Util;
 import java.io.*;
 import java.util.Random;
+import java.util.*;
 
 public class Creator {
 
@@ -156,7 +157,7 @@ public class Creator {
 
             // Add citation
             for(String citedPaper: row_data[0].split("\\|")){
-                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"cite"), Config.RESOURCE_URL+citedPaper);
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"cites"), Config.RESOURCE_URL+citedPaper);
             }
 
             // Add keyword (taking any from the title that have length > 3)
@@ -194,7 +195,7 @@ public class Creator {
             String volumeUri = Config.RESOURCE_URL+row_data[0].replace(" ","_") + "_Volume_" + row_data[1];
             String journalUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
             Resource currentVolume = model.createResource(volumeUri)
-                    .addProperty(model.createProperty(Config.BASE_URL+"volume_no"), row_data[1])
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"volume_number"), row_data[1])
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"has_journal"),journalUri);
         }
         csvReader.close();
@@ -216,7 +217,7 @@ public class Creator {
             String journalUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
 
             Resource currentJournalVolume = model.createResource(journalUri)
-                    .addProperty(model.createProperty(Config.BASE_URL+"publisher"), row_data[3])
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"publisher"), row_data[3])
                     .addProperty(FOAF.name, row_data[0]);
         }
         csvReader.close();
@@ -228,7 +229,10 @@ public class Creator {
     public static void createReview() throws IOException {
         // booktitle,editor,ee,isbn,key,mdate,publisher,series,title,volume,year,location
         Model model = ModelFactory.createDefaultModel();
+        Random rand = new Random();
 
+        List<String> decisionList = new ArrayList<>(
+                Arrays.asList("Approved", "Rejected", "InProgress", "InHalt"));
         // read the csv line by line
         BufferedReader csvReader = new BufferedReader(new FileReader(Config.REVIEW_PATH));
         String row;
@@ -243,9 +247,14 @@ public class Creator {
             String reviewUri = Config.RESOURCE_URL + name + "_" + paperKey;
             String personUri = Config.RESOURCE_URL + name;
 
+            int randomIndex = rand.nextInt(decisionList.size());
+            String decision = decisionList.get(randomIndex);
+
             Resource currentReview = model.createResource(reviewUri)
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"aboutPaper"),paperUri)
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"hasReviewer"),personUri);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"decision"), decision)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"comment"), Utils.getComment(decision))
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"about_paper"),paperUri)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_reviewer"),personUri);
 
         }
         csvReader.close();
@@ -318,7 +327,7 @@ public class Creator {
             String conferenceUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
             String editionUri = Config.RESOURCE_URL+row_data[4];
             Resource currentEdition = model.createResource(editionUri)
-                    .addProperty(model.createProperty(Config.RESOURCE_URL+"year"), year)
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"year"), year)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"edition_number"), editionNumber)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"venue"), venue)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"has_conference"), conferenceUri);

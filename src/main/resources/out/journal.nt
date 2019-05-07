@@ -1,58 +1,58 @@
 <http://www.semanticweb.org/resource/Expert_Syst._Appl.> <http://xmlns.com/foaf/0.1/name> "Expert Syst. Appl." .
-<http://www.semanticweb.org/resource/Expert_Syst._Appl.> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Expert_Syst._Appl.> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Computers_&_Education> <http://xmlns.com/foaf/0.1/name> "Computers & Education" .
-<http://www.semanticweb.org/resource/Computers_&_Education> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Computers_&_Education> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Computational_Statistics_&_Data_Analysis> <http://xmlns.com/foaf/0.1/name> "Computational Statistics & Data Analysis" .
-<http://www.semanticweb.org/resource/Computational_Statistics_&_Data_Analysis> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Computational_Statistics_&_Data_Analysis> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Finance_and_Stochastics> <http://xmlns.com/foaf/0.1/name> "Finance and Stochastics" .
-<http://www.semanticweb.org/resource/Finance_and_Stochastics> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Finance_and_Stochastics> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/IEEE_Data_Eng._Bull.> <http://xmlns.com/foaf/0.1/name> "IEEE Data Eng. Bull." .
-<http://www.semanticweb.org/resource/IEEE_Data_Eng._Bull.> <http://www.semanticweb.org/publisher> "IEEE" .
+<http://www.semanticweb.org/resource/IEEE_Data_Eng._Bull.> <http://www.semanticweb.org/property/publisher> "IEEE" .
 <http://www.semanticweb.org/resource/Journal_of_Biomedical_Informatics> <http://xmlns.com/foaf/0.1/name> "Journal of Biomedical Informatics" .
-<http://www.semanticweb.org/resource/Journal_of_Biomedical_Informatics> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Journal_of_Biomedical_Informatics> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Commun._ACM> <http://xmlns.com/foaf/0.1/name> "Commun. ACM" .
-<http://www.semanticweb.org/resource/Commun._ACM> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Commun._ACM> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/IEEE_Trans._Knowl._Data_Eng.> <http://xmlns.com/foaf/0.1/name> "IEEE Trans. Knowl. Data Eng." .
-<http://www.semanticweb.org/resource/IEEE_Trans._Knowl._Data_Eng.> <http://www.semanticweb.org/publisher> "IEEE" .
+<http://www.semanticweb.org/resource/IEEE_Trans._Knowl._Data_Eng.> <http://www.semanticweb.org/property/publisher> "IEEE" .
 <http://www.semanticweb.org/resource/Computing> <http://xmlns.com/foaf/0.1/name> "Computing" .
-<http://www.semanticweb.org/resource/Computing> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Computing> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/J._Symb._Comput.> <http://xmlns.com/foaf/0.1/name> "J. Symb. Comput." .
-<http://www.semanticweb.org/resource/J._Symb._Comput.> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/J._Symb._Comput.> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Pattern_Recognition_Letters> <http://xmlns.com/foaf/0.1/name> "Pattern Recognition Letters" .
-<http://www.semanticweb.org/resource/Pattern_Recognition_Letters> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Pattern_Recognition_Letters> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/SIGMOD_Record> <http://xmlns.com/foaf/0.1/name> "SIGMOD Record" .
-<http://www.semanticweb.org/resource/SIGMOD_Record> <http://www.semanticweb.org/publisher> "SIGMOD" .
+<http://www.semanticweb.org/resource/SIGMOD_Record> <http://www.semanticweb.org/property/publisher> "SIGMOD" .
 <http://www.semanticweb.org/resource/Signal_Processing> <http://xmlns.com/foaf/0.1/name> "Signal Processing" .
-<http://www.semanticweb.org/resource/Signal_Processing> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Signal_Processing> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/BMC_Systems_Biology> <http://xmlns.com/foaf/0.1/name> "BMC Systems Biology" .
-<http://www.semanticweb.org/resource/BMC_Systems_Biology> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/BMC_Systems_Biology> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/ACM_Trans._Database_Syst.> <http://xmlns.com/foaf/0.1/name> "ACM Trans. Database Syst." .
-<http://www.semanticweb.org/resource/ACM_Trans._Database_Syst.> <http://www.semanticweb.org/publisher> "ACM" .
+<http://www.semanticweb.org/resource/ACM_Trans._Database_Syst.> <http://www.semanticweb.org/property/publisher> "ACM" .
 <http://www.semanticweb.org/resource/Robotics_and_Autonomous_Systems> <http://xmlns.com/foaf/0.1/name> "Robotics and Autonomous Systems" .
-<http://www.semanticweb.org/resource/Robotics_and_Autonomous_Systems> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Robotics_and_Autonomous_Systems> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Electr._Notes_Theor._Comput._Sci.> <http://xmlns.com/foaf/0.1/name> "Electr. Notes Theor. Comput. Sci." .
-<http://www.semanticweb.org/resource/Electr._Notes_Theor._Comput._Sci.> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Electr._Notes_Theor._Comput._Sci.> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/ACM_Comput._Surv.> <http://xmlns.com/foaf/0.1/name> "ACM Comput. Surv." .
-<http://www.semanticweb.org/resource/ACM_Comput._Surv.> <http://www.semanticweb.org/publisher> "ACM" .
+<http://www.semanticweb.org/resource/ACM_Comput._Surv.> <http://www.semanticweb.org/property/publisher> "ACM" .
 <http://www.semanticweb.org/resource/Computers_&_Mathematics_with_Applications> <http://xmlns.com/foaf/0.1/name> "Computers & Mathematics with Applications" .
-<http://www.semanticweb.org/resource/Computers_&_Mathematics_with_Applications> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Computers_&_Mathematics_with_Applications> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Journal_of_Systems_Architecture_-_Embedded_Systems_Design> <http://xmlns.com/foaf/0.1/name> "Journal of Systems Architecture - Embedded Systems Design" .
-<http://www.semanticweb.org/resource/Journal_of_Systems_Architecture_-_Embedded_Systems_Design> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Journal_of_Systems_Architecture_-_Embedded_Systems_Design> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Informatik_Spektrum> <http://xmlns.com/foaf/0.1/name> "Informatik Spektrum" .
-<http://www.semanticweb.org/resource/Informatik_Spektrum> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Informatik_Spektrum> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/VLDB_J.> <http://xmlns.com/foaf/0.1/name> "VLDB J." .
-<http://www.semanticweb.org/resource/VLDB_J.> <http://www.semanticweb.org/publisher> "ACM" .
+<http://www.semanticweb.org/resource/VLDB_J.> <http://www.semanticweb.org/property/publisher> "ACM" .
 <http://www.semanticweb.org/resource/J._Symb._Log.> <http://xmlns.com/foaf/0.1/name> "J. Symb. Log." .
-<http://www.semanticweb.org/resource/J._Symb._Log.> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/J._Symb._Log.> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/ACM_SIGMOD_Digital_Review> <http://xmlns.com/foaf/0.1/name> "ACM SIGMOD Digital Review" .
-<http://www.semanticweb.org/resource/ACM_SIGMOD_Digital_Review> <http://www.semanticweb.org/publisher> "ACM" .
+<http://www.semanticweb.org/resource/ACM_SIGMOD_Digital_Review> <http://www.semanticweb.org/property/publisher> "ACM" .
 <http://www.semanticweb.org/resource/Neural_Computing_and_Applications> <http://xmlns.com/foaf/0.1/name> "Neural Computing and Applications" .
-<http://www.semanticweb.org/resource/Neural_Computing_and_Applications> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Neural_Computing_and_Applications> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Applied_Mathematics_and_Computation> <http://xmlns.com/foaf/0.1/name> "Applied Mathematics and Computation" .
-<http://www.semanticweb.org/resource/Applied_Mathematics_and_Computation> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Applied_Mathematics_and_Computation> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Appl._Math._Lett.> <http://xmlns.com/foaf/0.1/name> "Appl. Math. Lett." .
-<http://www.semanticweb.org/resource/Appl._Math._Lett.> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/Appl._Math._Lett.> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/I._J._Medical_Informatics> <http://xmlns.com/foaf/0.1/name> "I. J. Medical Informatics" .
-<http://www.semanticweb.org/resource/I._J._Medical_Informatics> <http://www.semanticweb.org/publisher> "Elsevier" .
+<http://www.semanticweb.org/resource/I._J._Medical_Informatics> <http://www.semanticweb.org/property/publisher> "Elsevier" .
 <http://www.semanticweb.org/resource/Applied_Categorical_Structures> <http://xmlns.com/foaf/0.1/name> "Applied Categorical Structures" .
-<http://www.semanticweb.org/resource/Applied_Categorical_Structures> <http://www.semanticweb.org/publisher> "Springer" .
+<http://www.semanticweb.org/resource/Applied_Categorical_Structures> <http://www.semanticweb.org/property/publisher> "Springer" .
