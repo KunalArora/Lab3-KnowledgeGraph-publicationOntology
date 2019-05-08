@@ -104,14 +104,16 @@ public class Creator {
             Resource currentPerson = model.createResource(personUri)
                     .addProperty(FOAF.firstName, firstName)
                     .addProperty(FOAF.lastName, lastName)
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"works_in"),workplaceUri);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"works_in"),model.createResource(workplaceUri));
 
             for(String paper:papers){
-                currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"writes"), Config.RESOURCE_URL+paper.replace("/","_"));
+                currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"writes"), model.createResource(Config.RESOURCE_URL+paper.replace("/","_")));
             }
             if(!(reviewedPaper.equals("N/A"))){
                 for(String paper:reviewedPaper.split("\\|")){
-                    currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"reviews"), Config.RESOURCE_URL+row_data[0].replace(" ","_")+"_"+paper.replace("/","_"));
+                    currentPerson.addProperty(model.createProperty(Config.PROPERTY_URL+"reviews"),
+                            model.createResource(Config.RESOURCE_URL+row_data[0].replace(" ","_")+"_"+paper
+                                    .replace("/","_")));
                 }
             }
 
@@ -165,23 +167,23 @@ public class Creator {
 
             // Add citation
             for(String citedPaper: row_data[0].split("\\|")){
-                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"cites"), Config.RESOURCE_URL+citedPaper);
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"cites"), model.createResource(Config.RESOURCE_URL+citedPaper));
             }
 
             // Add keyword (taking any from the title that have length > 3)
             for(String keyword:title.split(" ")){
                 if (keyword.length()>3){
-                    currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"has_keyword"),Config.RESOURCE_URL+"kw_"+keyword);
+                    currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"has_keyword"),model.createResource(Config.RESOURCE_URL+"kw_"+keyword));
                 }
             }
 
             // Presented In, only for conference paper
             if (row_data[3].contains("conf")){
-                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"presented_in"),Config.RESOURCE_URL+row_data[3]+"_event");
+                currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"presented_in"),model.createResource(Config.RESOURCE_URL+row_data[3]+"_event"));
             }
 
             // Published In
-            currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"published_in"),Config.RESOURCE_URL+row_data[3]);
+            currentPaper.addProperty(model.createProperty(Config.PROPERTY_URL+"published_in"),model.createResource(Config.RESOURCE_URL+row_data[3]));
         }
         csvReader.close();
 
@@ -204,7 +206,7 @@ public class Creator {
             String journalUri = Config.RESOURCE_URL+row_data[0].replace(" ","_");
             Resource currentVolume = model.createResource(volumeUri)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"volume_number"), row_data[1])
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_journal"),journalUri);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_journal"),model.createResource(journalUri));
         }
         csvReader.close();
 
@@ -261,8 +263,7 @@ public class Creator {
             Resource currentReview = model.createResource(reviewUri)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"decision"), decision)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"comment"), Utils.getComment(decision))
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"about_paper"),paperUri)
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_reviewer"),personUri);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"about_paper"),model.createResource(paperUri));
 
         }
         csvReader.close();
@@ -338,7 +339,7 @@ public class Creator {
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"year"), year)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"edition_number"), editionNumber)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"venue"), venue)
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_conference"), conferenceUri);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"has_conference"), model.createResource(conferenceUri));
 
         }
         csvReader.close();
@@ -361,7 +362,7 @@ public class Creator {
             String proceedingsUri = Config.RESOURCE_URL+"proc_"+title.replace(" ","_");
             Resource currentConference = model.createResource(proceedingsUri)
                     .addProperty(model.createProperty(Config.PROPERTY_URL+"abstract"), Utils.getLoremIpsum())
-                    .addProperty(model.createProperty(Config.PROPERTY_URL+"linked_to"),conferenceUri);
+                    .addProperty(model.createProperty(Config.PROPERTY_URL+"linked_to"),model.createResource(conferenceUri));
 
 
         }
