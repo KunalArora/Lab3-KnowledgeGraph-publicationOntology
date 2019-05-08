@@ -243,7 +243,11 @@
 
     <!-- http://www.semanticweb.org/property/publisher -->
 
-    s
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/property/publisher">
+       <rdfs:domain rdf:resource="http://www.semanticweb.org/Conference"/>
+       <rdfs:domain rdf:resource="http://www.semanticweb.org/Journal"/>
+       <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
 
 
 
